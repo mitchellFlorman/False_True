@@ -1,0 +1,8 @@
+INDEX VERSION 1.127+C:\Users\toyanç\FalseTrueFull\.metadata\.plugins\org.eclipse.jdt.core
+1895151578.index
+848856923.index
+496191860.index
+2110603010.index
+2239131249.index
+1359601070.index
+48456857.index

@@ -1,0 +1,88 @@
+package com.svsoftdeveloper.trueorfalse.activities;
+
+import com.falsetrue.titecs.R;
+import com.svsoftdeveloper.trueorfalse.activities.db.Statistics;
+
+import android.app.Activity;
+import android.os.Bundle;
+import android.view.KeyEvent;
+import android.view.Menu;
+import android.view.MenuItem;
+import android.widget.Button;
+import android.widget.TextView;
+
+import com.google.android.gms.ads.*;
+public class ResultsActivity extends Activity {
+	
+	public static final String EXTRA_STATISTICS = "statistics";
+	
+	private TextView txtAverageResult;
+	
+	private TextView txtLevel1percentage;
+	private TextView txtLevel2percentage;
+	private TextView txtLevel3percentage;
+	private TextView txtLevel4percentage;
+	private TextView txtLevel5percentage;
+	
+	private Statistics statistics;
+
+	private InterstitialAd interstitial;
+	
+	@Override
+    protected void onCreate(Bundle savedInstanceState) {
+        super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_myresults);
+        
+        txtAverageResult = (TextView) findViewById(R.id.txtAverageResult);
+        
+        txtLevel1percentage = (TextView) findViewById(R.id.txtLevel1percentage);
+        txtLevel2percentage = (TextView) findViewById(R.id.txtLevel2percentage);
+        txtLevel3percentage = (TextView) findViewById(R.id.txtLevel3percentage);
+        txtLevel4percentage = (TextView) findViewById(R.id.txtLevel4percentage);
+        txtLevel5percentage = (TextView) findViewById(R.id.txtLevel5percentage);
+        
+        statistics = getIntent().getParcelableExtra(EXTRA_STATISTICS);
+        
+        txtLevel1percentage.setText(Float.toString((Math.round(10*((statistics.getL1Percents()))))/10.0f) + " %");
+        
+        txtLevel2percentage.setText(Float.toString((Math.round(10*((statistics.getL2Percents()))))/10.0f) + " %");
+        
+        txtLevel3percentage.setText(Float.toString((Math.round(10*((statistics.getL3Percents()))))/10.0f) + " %");
+        
+        txtLevel4percentage.setText(Float.toString((Math.round(10*((statistics.getL4Percents()))))/10.0f) + " %");
+        
+        txtLevel5percentage.setText(Float.toString((Math.round(10*((statistics.getL5Percents()))))/10.0f) + " %");
+        
+        txtAverageResult.setText(Float.toString((Math.round(10*((statistics.getL1Percents() + statistics.getL2Percents() + statistics.getL3Percents() + statistics.getL4Percents() + statistics.getL5Percents())/5)))/10.0f) + " %");
+        
+     // Create the interstitial.
+	    interstitial = new InterstitialAd(this);
+	    interstitial.setAdUnitId("ca-app-pub-4270508386283746/4547108286");
+
+	    // Create ad request.
+	    AdRequest adRequest1 = new AdRequest.Builder().build();
+
+	    // Begin loading your interstitial.
+	    interstitial.loadAd(adRequest1);
+
+	  }
+		
+		// Invoke displayInterstitial() when you are ready to display an interstitial.
+		  public void displayInterstitial() {
+		    if (interstitial.isLoaded()) {
+		      interstitial.show();
+		    }
+		  }
+		
+	    public boolean onKeyDown(int keyCode, KeyEvent event) 
+	   {
+	        if ((keyCode == KeyEvent.KEYCODE_BACK)) 
+	        	
+	        {
+	        	displayInterstitial();
+	        }
+	        return super.onKeyDown(keyCode, event);
+	   
+    }
+
+}

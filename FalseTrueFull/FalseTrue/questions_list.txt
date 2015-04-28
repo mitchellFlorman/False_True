@@ -1,0 +1,38 @@
+﻿The number 325.0 expressed in scientific notation is 3.250 x 10^2./1/
+The number 0.025 has three significant figures./0/It has two significant figures: "2" and "5".
+The number 10.00 has four significant figures./1/
+In the measured number 2.34 mm, the last two digits are estimated digits./0/The list digit is the only estimated digit.
+1 inch = 2.54 cm. This is an example of an exact number./1/
+Solids have indefinite volume./0/Solids have a set definite volume.
+Energy associated with 0 K is equal to 0 degrees F./0/ 0 K = -459.69 degrees F.
+The process of cutting a paper into small pieces is an example of a chemical change./0/This is an example of a physical change.
+Law of Conservation of Mass states that energy can neither be created nor destroyed./0/That statement is true of the Law of Conservation of Energy.
+The large heat capacity of water limits large fluctuations in temperature near bodies of water during the summer months./1/
+The atomic number of Oxygen is 16./1/
+Iodine is considered a molecular element./1/
+Metalloids are elements that have properties of both metals and nonmetals./1/
+A neutral atom of Ne-21 would contain 21 electrons./0/It would have 21 neutrons.
+Group 8A elements are the most reactive nonmetals./0/Nobel Gasses are the least reactive elements.
+The law of Constant Composition states that all samples of a given compound have the same proportions of their constituent elements./1/
+99.9% of the mass of an atom is contained outside the nucleus./0/99.9% of the mass is the nucleus.
+Ionic compounds have a net charge of zero./1/
+Molecular compounds are usually composed of all nonmetals./1/
+Ions are formed when an atom gains or loses protons./0/They are formed when it gains or loses electrons.
+Isotopes are atoms of the same element containing different numbers of neutrons./1/
+One mole of Argon has more atoms in it than one mole of Neon./0/Moles are a measurement of quantity, 1 mole X = 1 mole Y.
+one mole of Carbon Dioxide gas contains 1 mole of carbon atoms and 2 moles of oxygen atoms./1/
+In chemical equations, the abbreviation (s) represents a solid./1/
+One mole of water contains 6.022 x 10^23 oxygen atoms./1/
+The element Chlorine is expected to gain electrons in a chemical reaction./1/
+Water is 11.2% hydrogen by mass./1/
+The element Lithium is a halogen./0/Lithium is an Alkali metal.
+The mixing of sodium metal and chlorine gas would be the type of reaction known as an oxidation-reduction reaction./1/
+Combusion reactions are a subcategory of gas evolution reactions./0/They are a subset of oxidation-reduction reactions.
+When balancing a chemical equation you may alter the coefficients but not the subscripts in the equation./1/
+A precipitation reaction will occur when aqueous sodium chloride is mixed with aqueous potassium nitrate./1/
+The limiting reactant is the reactant that is completely consumed in a reaction./1/
+The Kelvin scale was invented by Carl Linnaeus./1/ It was invented by William Thomson, also known as Lord Kelvin.
+The actual yield is the same as the theoretical yield  if the reaction goes to completion and there is no loss of product./1/
+If the theoretical yield of a reaction is 144 grams and the actual yield of the reaction is 72 grams, the percent yield of the reaction is 200%./0/The percent yield is 50%.
+Spectator ions are the ions that do not participate in chemical reactions./1/
+The equation AB + CD -> AD + CB is an example of a synthesis reaction./0/It is a double displacement reaction.
